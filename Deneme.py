@@ -4,7 +4,8 @@ import python_imagesearch.imagesearch
 import cv2
 import pyautogui
 from getmac import get_mac_address as gma
-if gma()=="50:b7:c3:3d:1c:fc":
+dosya=open("data/info/cf/bilgi.txt","r")
+if gma()==dosya.readline():
  print("Bot çalışıyor")
 
  while True:
