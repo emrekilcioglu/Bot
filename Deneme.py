@@ -6,8 +6,10 @@ import pyautogui
 import getmac
 from getmac import get_mac_address as gma
 dosya=open("data/info/cf/bilgi.txt","r")
-liste=dosya.readlines()
-if gma()==liste[0] or gma()==liste[1] or gma()== liste[2] or gma()== liste[3]:
+
+
+
+if gma()==dosya.readline(17) or gma()==dosya.readline(17) or gma()==dosya.readline(17) or gma()==dosya.readline(17):
  print("Bot çalışıyor")
 
  while True:
